@@ -94,7 +94,7 @@ export default function HealthcareServices() {
   }
 
   return (
-    <section className="py-16 w-full bg-white dark:bg-gray-900">
+    <section className="py-16 w-full bg-light dark:bg-dark">
       <div className="mx-auto px-8 flex flex-col md:flex-row w-full">
         {/* Header */}
         <div className="text-center mb-12 w-full md:w-[50%]">
