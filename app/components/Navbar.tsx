@@ -1,4 +1,3 @@
-"use client";
 import { useTheme } from 'next-themes';
 import Link from "next/link";
 import Image from "next/image";
@@ -24,7 +23,7 @@ export default function Navbar() {
     if(!theme){
         setTheme('system');
     }
-
+    console.log("Current theme:", theme);
   },[])
 
   const toggleTheme=()=>{
